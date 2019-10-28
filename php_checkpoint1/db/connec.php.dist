@@ -1,0 +1,10 @@
+<?php
+define("DSN","mysql:host=localhost;dbname=dbname;charset=UTF8");
+define("USER", "user");
+define("PASS", "pass");
+
+
+// Connection avec PDO
+$pdo = new PDO(DSN, USER, PASS);
+
+
